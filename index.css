@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header, footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #252b5b;
+  color: white;
+  padding: 1rem;
+}
+
+.header .title {
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.header .description {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+
+.navigation div {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+main {
+  background-color: #f9f9fa;
+  padding: 3rem;
+}
+
+.mainItem {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.imgItem img {
+  height: auto;
+  max-width: 20rem;
+  padding: 1rem;
+}
+
+.textItem {
+  max-width: 35rem;
+  text-align: justify;
+  font-size: 1.2rem;
+}
+
+.textItem p {
+  padding: 1rem;
+}
+
+.historyItem {
+  text-align: justify;
+  padding: 2rem;
+  font-size: 1.2rem;
+}
+
+.historyItem p {
+  padding: 1rem;
+}
+
+h3 {
+  text-align: center;
+}
+
+.conctactsItem {
+  padding: 2rem;
+  font-size: 1.2rem;
+}
+
+.contactsItemTitle {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.conctactsItems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
